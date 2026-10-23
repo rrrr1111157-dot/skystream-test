@@ -1,11 +1,22 @@
 {
-  "name": "SkyStream Repository",
-  "id": "skystream.test.repo",
-  "description": "My custom SkyStream repo",
+  "name": "3no Stream",
+  "id": "com.3no.stream",
+  "packageName": "com.3no.stream",
+  "description": "3no Repository for SkyStream",
+  "manifestVersion": 1,
+  "pluginUrl": "https://raw.githubusercontent.com/comibrand00-stack/3no/master/builds/plugins.json",
+  "repos": [
+    {
+      "name": "3no Repo",
+      "url": "https://raw.githubusercontent.com/comibrand00-stack/3no/master/builds/plugins.json"
+    }
+  ],
   "plugins": [
     {
       "name": "3no",
       "id": "com.3no.plugin",
+      "packageName": "com.3no.plugin",
+      "version": 1,
       "url": "https://raw.githubusercontent.com/comibrand00-stack/3no/master/builds/plugins.json"
     }
   ]
